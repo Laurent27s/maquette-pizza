@@ -1,0 +1,41 @@
+@font-face{
+    font-family: "amaticsc.woff2";
+    src:url("..assets/font/amaticsc.woff2")format("woff2");
+}
+nav{
+    position: fixed;
+    width: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "amaticsc.woff2";
+}
+li{
+    display: inline;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+h1{
+    text-align: center;
+}
+#imgHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title1{
+    text-align: center;
+}
+.price{
+    text-decoration-color: brown;
+    text-align: right;
+}

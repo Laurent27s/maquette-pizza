@@ -1,0 +1,110 @@
+@font-face{
+    font-family: "amaticsc";
+    src:url("../font/amaticsc.woff2")format("woff2");
+}
+nav a{
+    cursor: grab;
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    margin: 0;
+    font-family: "amaticsc";
+}
+/*navigation */
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: rgba(rgb(102, 51, 51), rgb(55, 146, 55), rgb(31, 31, 100), 0.8);
+    padding: 0 2rem;
+    box-sizing: border-box;
+    top: 0;
+    z-index: 1;
+}
+nav:hover{
+    cursor: pointer;
+}
+li{
+    display: inline;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 5em;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+h2{
+    font-size: 5em;
+    color: white;
+    text-align: center;
+}
+span{
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 5px;
+}
+/*image header */
+#imgHeader{
+    position: relative;
+    height: 550px;
+    background: url(../img/pizza.jpg) top no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.horaires{
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    color:white;
+    padding: 5px;
+    margin: 5px;
+    background-color: black;
+
+}
+section{
+    background-color: black;
+    width: 70%;
+    margin: 0 auto 3rem auto;
+}
+#pres{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: white;
+}
+
+.content{
+    justify-content: space-around;
+    background-color:white;
+
+}
+.main{
+    background-color: black;
+  
+}
+.price{
+    text-align: end;
+}
+.bground{
+    background-color: black;
+}
+#about{
+    background-color: brown;
+    width: 100%;
+}
+#one{
+  
+}
+
+img{
+    background-position: center;
+}
